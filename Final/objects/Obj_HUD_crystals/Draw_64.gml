@@ -1,13 +1,19 @@
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1
 /// @DnDHash : 7A650EFB
-/// @DnDArgument : "obj" "Obj_player "
+/// @DnDArgument : "obj" "Obj_player"
 /// @DnDArgument : "not" "1"
-var l7A650EFB_0 = false;l7A650EFB_0 = instance_exists(Obj_player );if(!l7A650EFB_0){	/// @DnDAction : YoYo Games.Common.Exit_Event
+/// @DnDSaveInfo : "obj" "Obj_player"
+var l7A650EFB_0 = false;
+l7A650EFB_0 = instance_exists(Obj_player);
+if(!l7A650EFB_0)
+{
+	/// @DnDAction : YoYo Games.Common.Exit_Event
 	/// @DnDVersion : 1
-	/// @DnDHash : 1F964E4E
+	/// @DnDHash : 312F49D1
 	/// @DnDParent : 7A650EFB
-	exit;}
+	exit;
+}
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Self
 /// @DnDVersion : 1
@@ -29,5 +35,5 @@ draw_set_font(Font_curlzmt);
 /// @DnDArgument : "y" "-19"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""Crystals: ""
-/// @DnDArgument : "var" "Obj_player.crystals "
-draw_text(x + 30, y + -19, string("Crystals: ") + string(Obj_player.crystals ));
+/// @DnDArgument : "var" "Obj_player.crystals"
+draw_text(x + 30, y + -19, string("Crystals: ") + string(Obj_player.crystals));

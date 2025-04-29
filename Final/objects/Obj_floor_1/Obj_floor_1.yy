@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_floor_1",
-  "eventList":[],
+  "%Name":"Obj_Floor_1",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Obj_floor_1",
+  "name":"Obj_Floor_1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
